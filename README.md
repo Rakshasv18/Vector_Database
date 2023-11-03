@@ -1,5 +1,5 @@
 # Vector_Database
-Create Embeddings using Openai embeddings api 
+Create Word Embeddings using Openai embeddings api 
 store and query using Vector Database
 
 
