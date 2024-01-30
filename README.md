@@ -4,11 +4,13 @@ store and query using Vector Database
 
 
 # Vector Table
-1) You wish to perform a semantic search on certain data;
-2) You build a vector database that can store and process semantic search queries.
-3) You analyze your data using OpenAI and turn it into vectors that you can store in a database.
-4) You save the information and the vectors produced by OpenAI together.
-5) You may now look up the data.
+1) Perform a semantic search on certain data;
+2) Build a vector database that can store and process semantic search queries.
+3) Analyze the data using OpenAI and turn it into vectors that you can store in a database.
+4) Save the information and the vectors produced by OpenAI together.
+
+#Project Description and details 
+The project involved using the Postman API to access OpenAI's text-embedding-ada-002 and create word embeddings for a text document. These embeddings were then stored in a vector database using a single store that included Azure Cloud. SQL was used to create a table and store the embeddings along with the text. ​Finally, semantic search was utilized to retrieve the most relevant text.
 
 # Applications
 Storing vectors and querying by sending vectors is a common technique used in various applications where similarity search or recommendation systems are required. Some notable applications include:
